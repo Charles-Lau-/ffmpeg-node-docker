@@ -28,4 +28,4 @@ RUN yarn global add increase-memory-limit
 
 RUN yarn config set registry https://registry.npm.taobao.org -g
 
-ENTRYPOINT ["npm", "run"]
+CMD ["node"]
